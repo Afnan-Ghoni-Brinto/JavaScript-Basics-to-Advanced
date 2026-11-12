@@ -1,0 +1,11 @@
+const text = "JavaScript";
+const number = 25;
+const active = true;
+const empty = null;
+let unknown;
+const big = 1234567890123n;
+const person = { name: "Rahim" };
+const colors = ["red", "blue"];
+console.log(typeof text, typeof number, typeof active);
+console.log(typeof empty, typeof unknown, typeof big);
+console.log(typeof person, Array.isArray(colors));
