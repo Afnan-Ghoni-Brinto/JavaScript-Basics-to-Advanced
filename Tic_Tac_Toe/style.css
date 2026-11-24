@@ -1,0 +1,5 @@
+body { font-family: Arial; text-align: center; background: #f4f6f8; padding: 25px; }
+main { max-width: 360px; margin: auto; }
+.board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.board button { height: 100px; font-size: 38px; cursor: pointer; background: white; border: 1px solid #aaa; }
+#reset { margin-top: 18px; padding: 10px 20px; cursor: pointer; }
